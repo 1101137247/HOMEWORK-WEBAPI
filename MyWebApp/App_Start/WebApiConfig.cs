@@ -17,7 +17,7 @@ namespace MyWebApp
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi_name",
-                routeTemplate: "api/{controller}/{name}",
+                routeTemplate: "api/{controller}/{Name}",
                 defaults: new { id = RouteParameter.Optional }
             );
 
